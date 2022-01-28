@@ -12,7 +12,7 @@
 #define DEFAULT 0
 #define LOWER   1
 #define GAME    2
-#define ADJST   3
+#define ADJUST   3
 
 / {
         keymap {
@@ -45,7 +45,7 @@
                                      &trans &kp LSHFT   &kp RET    &trans    &mo 3
                         >;
                 };
-l
+
                 game_layer {
 // -----------------------------------------------------------------------------------------
 // | TAB |  W  |  7  |  8  |  9  |     |     |     |     |     |     | NUM/| SLCK |
